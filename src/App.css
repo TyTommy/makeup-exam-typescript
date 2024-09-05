@@ -1,0 +1,18 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-container {
+  width: calc(100% - 96px);
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.color-name {
+  color: #fff;
+  text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333,
+    -1px 1px 0 #333, 2px 2px 5px rgba(0, 0, 0, 0.65);
+}
